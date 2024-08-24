@@ -1,0 +1,18 @@
+{
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "semi": true,
+          "singleQuote": true,
+          "trailingComma": "es5"
+        }
+      ]
+    }
+  }
+  
